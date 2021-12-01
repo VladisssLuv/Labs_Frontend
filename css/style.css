@@ -76,7 +76,7 @@ h2{
 }
 
 .page-subscribe{
-    background: linear-gradient(to right, #0a2090, 67%, #2377cd)
+    background: linear-gradient(to right, #0a2090, 50%, #2377cd)
 }
 
 .subscribe h2{
@@ -110,6 +110,18 @@ h2{
     color: #fff;
     background-color: #1085e4;
     text-transform: uppercase;
+}
+
+/*размещение картинки робота*/
+.page-subscribe {
+    position: relative;
+    height: 520px;
+}
+
+.page-subscribe .subscribe img{
+    position: absolute;
+    right: 395px;
+    top: 50px
 }
 
 .software dt{
