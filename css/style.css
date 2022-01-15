@@ -25,14 +25,31 @@ h2{
 }
 
 
-.btn-started{
+.btn-primary{
     color: #fff;
     background-color: #1085e4;
+    padding: 24px 44px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #1085e4;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color:#1085e4;
 }
 
 .btn-learnMore{
     color: #7e8bae;
     background-color: #cbdbe8;
+    border: 1px solid #cbdbe8;
+}
+.btn-learnMore:hover{
+    background-color: #fff;
+    color: #7e8bae;
+}
+
+.btn-header a+a{
+    margin-left: 15px;
 }
 
 .nav{
@@ -40,12 +57,27 @@ h2{
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
+    margin:0;
+    padding:0;
+    list-style-type: none;
 }
 
 .btn-nav{
-    color: #fff;
     font-weight: 400;
-    background-color: #1085e4;
+    letter-spacing: 2.3px;
+    padding: 24px 60px;
+}
+
+.btn-info{
+    color:#8085b1;
+    padding: 25px, 70px; 
+    background: transparent;
+    border: 1px solid #dce1e5;
+    
+
+}
+.btn-info:hover{
+    border: 1px solid #1085e4;
 }
 
 .nav li{
